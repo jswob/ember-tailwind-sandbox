@@ -14,16 +14,16 @@ module.exports = function (defaults) {
             },
           },
           require("tailwindcss")("./app/tailwind.config.js"),
-          {
-            module: require("@fullhuman/postcss-purgecss"),
-            options: {
-              content: [
-                "./app/index.html",
-                "./app/templates/**/*.hbs",
-                "./app/components/**/*.hbs",
-              ],
-            },
-          },
+          // {
+          //   module: require("@fullhuman/postcss-purgecss"),
+          //   options: {
+          //     content: [
+          //       "./app/index.html",
+          //       "./app/templates/**/*.hbs",
+          //       "./app/components/**/*.hbs",
+          //     ],
+          //   },
+          // },
         ],
       },
     },
